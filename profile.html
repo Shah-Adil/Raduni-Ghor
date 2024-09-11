@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/pop-font.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="preloader"></div>
+    
+    <main class="wrapper">
+        <div class="container">
+            <header class="navbar pt-3" style="z-index: 99;">
+                <div class="menu-bar"><i class="fa-solid fa-grip-lines  box-btn"></i></div>
+                <div class="location-set text-center">
+                    <h3 class="bg-white p-2" style="color: var(--main-color); border-radius: 10px ; ">My Profile</h3>
+                </div>
+                <a href="add-to-cart.html" class="cart-bar"><i class="fa-solid fa-cart-shopping box-btn"></i></a>
+                
+            </header>
+
+       
+
+            <div class="side-menu">
+                <div class="side-black"></div>
+                <div class="side-menu-content">
+
+                    <img src="img/logo.png" alt="img">
+                    <ul class=" ">
+                        
+                        <li><a href="index.html" ><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                        <li><a href="profile.html"><i class="fa-solid fa-user"></i><span>Profile</span></a></li>
+                        <li><a href="fav-seller.html"><i class="fa-solid fa-heart"></i><span>Favorite</span></a></li>
+                        <li><a href="add-to-cart.html"><i class="fa-solid fa-cart-shopping "></i><span>Cart</span></a></li>
+                        <li><a href="order-page.html"> <i class="fa-solid fa-truck"></i><span>Orders</span></a></li>
+                        <li><a href="notification.html"><i class="fa-solid fa-bell"></i><span>Notifications</span></a></li>
+                        <li><a href="product.html"><i class="fa-solid fa-toolbox"></i><span>Product</span></a></li>
+                        <li><a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>Login</span></a></li>
+                        
+             
+                    </ul>
+    
+                    <a href="" class="logout"></a>
+    
+                </div>
+
+            </div>
+
+
+          
+
+        </div>
+
+        <section class="shop-page ">
+            <div class="shop-page-img">
+                <div class="shop-page-img-banner">
+                    <div>  <img src="img/image 55.png" class="w-100" alt="img"></div>
+                    <div>  <img src="img/image 55.png" class="w-100" alt="img"></div>
+                    
+                </div>
+            </div>
+            <div class="shop-page-text  ">
+                
+                <div class="container">
+               
+                    <div class="navbar mb-2 pt-0">
+                            <h2 class="">Home Made </h2>
+                        <a href="" class="btn btn-primary btn-main" data-bs-toggle="modal" data-bs-target="#exampleModal6">Edit</a>
+                    </div>
+                       <!-- Modal -->
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h3 id="exampleModalLabel">Edit Details </h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+        
+                                    <div class="row">
+                                        <div class="form-input-contact col-6">
+                                            <label for="" style="color: var(--main-color);">Name</label>
+                                            <input type="text" name="" placeholder="Name">
+                                        </div>
+        
+                                        <div class="form-input-contact col-6">
+                                            <label for="" style="color: var(--main-color);">Categories</label>
+                                            <select name="" id="">
+                                                <option value="">Burger</option>
+                                                <option value="">Pizza</option>
+                                                <option value="">Rice</option>
+        
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <label for="" style="color: var(--main-color);">Add Image</label>
+                                    <div class="row">
+                                        <div class="form-input-contact col-6">
+                                    
+                                            <input type="file" name="" placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-input-contact col-6">
+                                            <input type="file" name="" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-input-contact col-6">
+                                            <label for="" style="color: var(--main-color);">Delivery </label>
+                                            <input type="text" name="" placeholder="Delivery">
+                                        </div>
+                                        <div class="form-input-contact col-6">
+                                            <label for="" style="color: var(--main-color);">Delivery Time</label>
+                                            <input type="text" name="" placeholder="Delivery Time">
+                                        </div>
+                                    </div>
+        
+                                    <div class="form-input-contact">
+                                        <label for="" style="color: var(--main-color);">Describtion</label>
+                                        <textarea placeholder="Describtion"></textarea>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" style="background: var(--main-color); border: none; font-size: var(--normal-font); " data-bs-toggle="modal" data-bs-target="#exampleModal1">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex align-items-center gap-3  mt-2 mb-3">
+                        <div class="review-star position-static" style="width: fit-content; box-shadow:  0 0 0 0 #00000000;">
+                            <span>4.5</span>
+                            <i class="fa-solid fa-star"></i>
+                            <small>(25+)</small>
+                        </div>
+                        <a href="#" style="color: var(--main-color);"><u>See Review</u></a>
+                    </div>
+                    <p>Brown the beef better. Lean ground beef – I like to use 85% lean angus. Garlic – use fresh  chopped. Spices – chili powder, cumin, onion powder.</p>
+                    <ul class="shop-pros">
+                        <li>
+                            <i class="fa-solid fa-truck"></i>
+                            <small>Free delivery</small>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-clock"></i>
+                            <small>10-15 mins</small>
+                        </li>
+                    </ul>
+
+                    
+                    
+                </div>
+
+        
+           
+            </div>
+
+      
+        </section>
+
+
+
+  
+
+        <header class="bottom-nav">
+            <div class="container">
+                <ul class="navbar ">
+                    <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="fav-seller.html"><i class="fa-solid fa-heart"></i></a></li>
+                    <li><a href="add-to-cart.html"><i class="fa-solid fa-cart-shopping "></i></a></li>
+                    <li><a href="notification.html"><i class="fa-solid fa-bell"></i></a></li>
+                    <li><a href="profile.html"><i class="fa-solid fa-user"></i></a></li>
+
+                </ul>
+            </div>
+        </header>
+
+
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jq.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+              var slider = tns({
+          
+          container: '.shop-page-img-banner',
+          items: 1,
+          autoplay: true,
+          controls: false,
+          nav: false,
+          autoplayButtonOutput: false,
+          mouseDrag: true,
+          touch: true,
+          autoplayTimeout: 4000 ,
+          speed: 800,
+          gutter: 10 
+        
+      });
+    </script>
+
+
+  
+</body>
+</html>
